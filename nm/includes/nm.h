@@ -6,7 +6,7 @@
 /*   By: fnieto <fnieto@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/02/19 15:58:32 by fnieto            #+#    #+#             */
-/*   Updated: 2017/02/19 16:22:46 by fnieto           ###   ########.fr       */
+/*   Updated: 2017/02/25 15:00:59 by fnieto           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,5 +15,9 @@
 
 # include <mach-o/loader.h>
 # include <mach-o/swap.h>
+# include <sys/mman.h>
+# include <fcntl.h>
+# include <sys/stat.h>
+# include <unistd.h>
 
 #endif
